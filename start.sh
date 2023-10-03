@@ -1,1 +1,1 @@
-docker compose up --build --force-recreate -d
+docker compose up --force-recreate --build -d
