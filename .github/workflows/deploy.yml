@@ -15,5 +15,5 @@ jobs:
         host: ${{ secrets.SSH_HOST }}
         username: ${{ secrets.SSH_USERNAME }}
         key: ${{ secrets.SSH_KEY }}
-        port: ${{ secrets.SSH_PORT }}
+        port: 2222      #${{ secrets.SSH_PORT }}
         script: cd /home/my/aspnet-core-ci-cd-test && git checkout prod  && git pull && bash start.sh
